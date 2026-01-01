@@ -108,7 +108,7 @@ const App: React.FC = () => {
       {/* SESSÃO 1 – HERO */}
       <Section className="text-center pt-4 md:pt-10 pb-6 md:pb-12">
         <h1 className="text-xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-4 title-main uppercase px-2">
-          Aprenda do <span className="highlight">ZERO</span> a Fazer Incensos Artesanais <span className="highlight">100% NATURAIS</span>, Que Queimam Até o Fim, Purificam, Energizam e Ainda Podem Gerar uma Nova Fonte de <span className="highlight">RENDA</span>...
+          Aprenda do <span className="highlight">ZERO</span> a Fazer Incensos Artesanais <span className="highlight">100% NATURAIS</span>, Que Queimam Até o Fim, Purificam, Energizam e Ainda Podem Gerar uma Nova <span className="highlight">FONTE DE RENDA</span>...
         </h1>
         <p className="text-sm md:text-base text-gray-500 mb-4 font-normal max-w-xl mx-auto leading-relaxed px-4">
           Tudo em casa, de forma econômica e mesmo que você nunca tenha feito antes!
