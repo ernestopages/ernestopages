@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 
 const CTAButton: React.FC<{ text: string; className?: string; onClick?: () => void; href?: string }> = ({ text, className = "", onClick, href }) => {
-  const baseClasses = `w-full md:w-auto px-8 py-4 text-sm md:text-base font-bold text-white rounded-xl btn-cta animate-cta uppercase tracking-widest whitespace-nowrap shadow-lg flex items-center justify-center text-center leading-relaxed transition-all duration-300 no-underline cursor-pointer ${className}`;
+  const baseClasses = `w-full md:w-auto px-6 md:px-8 py-4 text-sm md:text-base font-bold text-white rounded-xl btn-cta animate-cta uppercase tracking-wider md:tracking-widest whitespace-normal shadow-lg flex items-center justify-center text-center leading-tight transition-all duration-300 no-underline cursor-pointer ${className}`;
   
   if (href) {
     return (
@@ -175,7 +175,7 @@ const App: React.FC = () => {
       <Section className="text-center">
         <img 
           src="https://i.ibb.co/pBV8WBLr/Incensos.webp" 
-          alt="Incensos em produção" 
+          alt="Incensos em production" 
           className="rounded-3xl shadow-lg mb-10 w-full max-w-xl mx-auto"
           loading="lazy"
         />
@@ -429,7 +429,7 @@ const App: React.FC = () => {
           <p>Porque meu objetivo é compartilhar esse conhecimento com o maior número de pessoas possível.</p>
           <p>O valor simbólico de R$10,00 serve pra dois propósitos:</p>
           <div className="space-y-2">
-            <CheckItem text="Manter este projeto e the site no ar, funcionando e acessível para todos." />
+            <CheckItem text="Manter este projeto e o site no ar, funcionando e acessível para todos." />
             <CheckItem text="Separar quem realmente valoriza esse conteúdo e quer aprender de verdade dos curiosos." />
           </div>
           <p className="font-medium">É uma troca justa, consciente e feita de coração.</p>
