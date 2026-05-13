@@ -361,7 +361,7 @@ const App: React.FC = () => {
             TUDO O QUE VOCÊ VAI <span className="highlight">APRENDER</span>
           </h2>
           <div className="grid grid-cols-1 max-w-2xl mx-auto">
-            <CheckItem text={<>+20 Receitas <span className="highlight font-bold">Exclusivas em Vídeo</span></>} />
+            <CheckItem text={<>+20 Receitas <span className="highlight font-bold">Exclusivas</span></>} />
             <CheckItem text={<>Modo de <span className="highlight font-bold">Preparo</span> Detalhado</>} />
             <CheckItem text={<><span className="highlight font-bold">Lista</span> de Ingredientes Naturais</>} />
             <CheckItem text={<><span className="highlight font-bold">Combinações</span> de Aromas e Funções</>} />
@@ -426,7 +426,6 @@ const App: React.FC = () => {
 
           <div className="max-w-xs mx-auto space-y-1 text-left mb-10">
             <CheckItem text={<span className="font-bold">Guia A Arte dos Incensos Artesanais</span>} className="py-2.5" />
-            <CheckItem text={<span className="font-bold">Curso em Vídeo</span>} className="py-2.5" />
             <CheckItem text={<span className="font-bold">+3 Super Bônus</span>} className="py-2.5" />
             <CheckItem text={<span className="font-bold">Acesso Vitalício</span>} className="py-2.5" />
           </div>
